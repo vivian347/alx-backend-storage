@@ -1,4 +1,4 @@
---table using ENUM
+-- table using ENUM
 
 CREATE TABLE IF NOT EXISTS users (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,

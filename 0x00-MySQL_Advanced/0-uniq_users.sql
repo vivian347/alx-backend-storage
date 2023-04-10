@@ -1,4 +1,4 @@
---Table users with field id, email, name
+-- Table users with field id, email, name
 
 CREATE TABLE IF NOT EXISTS users (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
