@@ -1,4 +1,4 @@
-#/!usr/bin/env python3
+#!/usr/bin/env python3
 
 """ exercise """
 
@@ -7,6 +7,7 @@ from typing import Union, Callable, Optional
 from uuid import uuid4
 
 UnionList = Union[str, bytes, int, float]
+
 
 class Cache:
     """class Cache"""
@@ -35,8 +36,6 @@ class Cache:
         """parametiza data as str"""
         return self.get(key, str)
 
-    def get_int(self, data:str) -> int:
+    def get_int(self, data: str) -> int:
         """parametize data as int"""
         return self.get(key, int)
-
-
